@@ -105,7 +105,7 @@
             img.addEventListener("error", function() {
                 const el = document.createElement("div");
                 el.className = "gallery-fallback";
-                el.textContent = "Imagem original pendente: " + img.getAttribute("alt");
+                el.textContent = "Não foi possível carregar: " + img.getAttribute("alt");
                 img.replaceWith(el);
             });
         });
