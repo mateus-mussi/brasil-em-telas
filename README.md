@@ -2,78 +2,92 @@
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Projeto acadêmico](https://img.shields.io/badge/Projeto-acad%C3%AAmico-blue)
+![Semestre](https://img.shields.io/badge/UDF-2026.2-blue)
+![Disciplina](https://img.shields.io/badge/Disciplina-Desenvolvimento_Front--End_para_Web-006B3C)
 
-## 📌 Visão geral
+## 📚 Projeto acadêmico de 2026.2
 
-**Brasil em Telas** é um projeto acadêmico em equipe para apresentar a pintura e a diversidade cultural brasileira em um site de navegação simples. O conteúdo aborda paisagens, tradições e identidades regionais por meio de seções temáticas.
+| Informação | Detalhe |
+|---|---|
+| **Projeto** | Brasil em Telas |
+| **Disciplina** | **Desenvolvimento Front-End para Web** |
+| **Semestre** | **2026.2** |
+| **Instituição** | UDF |
+| **Curso** | Análise e Desenvolvimento de Sistemas (ADS) |
+| **Integrantes citados no código** | Clarice Gabriela e Mateus Mussi |
+| **Tecnologias** | HTML5 e CSS3; JavaScript mínimo para o aviso do formulário |
 
-**Autores citados no material original:** Clarice Gabriela e Mateus Mussi. A identificação completa dos participantes e as permissões de publicação/licenciamento precisam ser confirmadas com o grupo.
+## 📌 Contexto e objetivo
+
+O projeto **Brasil em Telas** apresenta a riqueza da pintura brasileira e a diversidade de paisagens, regiões e manifestações culturais do país em um site de página única. Foi desenvolvido como atividade prática da disciplina Desenvolvimento Front-End para Web, no semestre 2026.2, aplicando estruturação semântica, estilização e navegação por âncoras.
+
+A página reúne uma introdução à pintura brasileira, galeria de imagens, textos sobre a cultura nacional, localização da UDF em um mapa incorporado e um formulário visual de contato.
 
 ## ✨ Funcionalidades
 
-- Navegação por seções da mesma página.
-- Introdução à pintura e às manifestações culturais brasileiras.
-- Galeria com seis espaços reservados a imagens de obras.
-- Textos sobre diversidade regional.
-- Mapa incorporado do Google Maps (requer acesso à internet).
-- Formulário **demonstrativo** de contato, sem envio de mensagens a servidor.
+- Página inicial com imagem de destaque e identidade visual.
+- Barra de navegação entre as seções **Início**, **Sobre**, **Galeria**, **Brasil**, **Mapa** e **Contatos**.
+- Galeria com seis imagens do trabalho original.
+- Layout com adaptação para telas menores.
+- Mapa da UDF incorporado via Google Maps.
+- Formulário ilustrativo, sem backend ou transmissão de mensagens. Ao enviar, é exibido apenas um aviso.
 
-> **Estado atual:** esta é uma versão de demonstração. Os arquivos originais de imagens (`img/logo.webp`, `img/hero.jpg`, `img/1.jpg` a `img/6.jpg`) não estavam disponíveis; foram substituídos por placeholders identificados. Esses blocos **não são reproduções das obras originais**.
+## 🛠️ Tecnologias e organização
 
-## 🧰 Tecnologias
+- **HTML5:** estrutura de páginas, seções, navegação, galeria, formulário e iframe.
+- **CSS3:** cores, tipografia, layout flexível, responsividade e efeitos visuais.
+- **JavaScript:** comportamento demonstrativo do formulário e sinalização de imagens ausentes.
+- **Google Maps Embed:** visualização externa do mapa, dependente de conexão com a internet.
 
-| Tecnologia | Utilização |
-|---|---|
-| HTML5 | Estrutura do conteúdo, navegação e formulário |
-| CSS3 | Layout, estilos e adaptação de tela |
-| Google Maps Embed | Mapa externo via `iframe` |
-
-Não há dependências Node.js, Python ou banco de dados.
-
-## ▶️ Como executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/mateus-mussi/brasil-em-telas.git
-   cd brasil-em-telas
-   ```
-2. Abra o arquivo `index.html` em um navegador moderno.
-3. Se preferir, abra a pasta no VS Code e use a extensão **Live Server** para executar localmente.
-
-O mapa depende da conexão com a internet. O formulário não envia mensagens; ao pressionar **Enviar**, mostra um aviso de demonstração.
-
-## 🖼️ Demonstração visual
-
-As capturas da versão demonstrativa foram preparadas separadamente, mas **ainda precisam ser enviadas à pasta `docs/` deste repositório**. Consulte [as instruções de conclusão](docs/LEIA-ANTES-DE-PUBLICAR.md).
-
-Quando adicionadas, aparecerão aqui:
-
-```markdown
-![Página inicial](docs/inicio.png)
-![Galeria](docs/galeria.png)
-```
-
-## 🗂️ Estrutura
+Estrutura esperada do projeto:
 
 ```text
 brasil-em-telas/
 ├── index.html
 ├── css/
 │   └── style.css
+├── img/
+│   ├── logo.webp
+│   ├── hero.jpg
+│   └── 1.jpg ... 8.jpg
 ├── docs/
 │   └── LEIA-ANTES-DE-PUBLICAR.md
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
-## 🔧 Melhorias planejadas
+> O código HTML e o CSS estão publicados. A pasta **img/** com os arquivos binários originais do trabalho precisa ser adicionada ao GitHub para que as imagens apareçam corretamente no site; veja [instruções](docs/LEIA-ANTES-DE-PUBLICAR.md).
 
-- Adicionar imagens originais licenciadas ou autorizadas, com créditos e texto alternativo.
-- Substituir as capturas demonstrativas por screenshots da versão final.
-- Melhorar a acessibilidade e a adaptação a telas pequenas.
-- Implementar envio de contato apenas se houver serviço backend e política de privacidade adequados.
+## ▶️ Como executar localmente
 
-## 📚 Contexto acadêmico e licença
+**Pré-requisito:** navegador atualizado (Chrome, Firefox ou Edge). Não há dependências a instalar.
 
-Antes de apresentar como projeto obrigatório do semestre **2026.2**, é necessário confirmar a disciplina e que o trabalho pertence a esse semestre. O arquivo `LICENSE` não foi incluído enquanto não houver autorização dos autores e titulares dos recursos utilizados.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/mateus-mussi/brasil-em-telas.git
+   cd brasil-em-telas
+   ```
+2. Abra o arquivo `index.html` no navegador.
+3. Alternativamente, abra a pasta no VS Code e inicie a extensão *Live Server*.
+4. Navegue pelas seções usando o menu superior.
+
+**Observações:** O mapa necessita de internet. O formulário é demonstrativo; não existe servidor para receber ou salvar os dados.
+
+## 🖼️ Demonstração visual
+
+O arquivo original do semestre contém a imagem de capa, o logotipo e oito imagens. Para concluir a apresentação visual pública, envie a pasta `img` do arquivo original ao repositório e inclua uma captura real da aplicação em `docs/inicio.png`. Depois, adicione ao README:
+
+```markdown
+![Página inicial — Brasil em Telas](docs/inicio.png)
+```
+
+## 👥 Autoria e licença
+
+O código original cita **Clarice Gabriela e Mateus Mussi** como responsáveis pelo desenvolvimento. A licença não foi definida: é necessário confirmar a concordância dos autores e os direitos de uso das imagens antes de adicionar um arquivo `LICENSE`. Sem licença, a publicação no GitHub não equivale à autorização para reutilização por terceiros.
+
+## 🔧 Próximas melhorias
+
+- Enviar as imagens originais ao repositório e verificar seus créditos/direitos de uso.
+- Adicionar capturas de tela reais da página funcionando.
+- Refinar textos alternativos das imagens com a identificação de cada obra.
+- Realizar testes de acessibilidade e responsividade.
