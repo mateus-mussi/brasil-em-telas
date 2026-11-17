@@ -9,16 +9,14 @@
 
 O projeto foi confirmado pelo estudante como trabalho prático de 2026.2. O arquivo original `Site_2026.rar` contém `index.html`, `css/style.css` e 10 arquivos na pasta `img/`: `logo.webp`, `hero.jpg` e `1.jpg` até `8.jpg`.
 
-O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto. Os **arquivos binários de imagem precisam ser enviados à pasta `img/` no repositório**, preservando os nomes originais.
+O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto. A **pasta `img/` foi enviada e verificada no GitHub**, com os 10 arquivos originais preservados.
 
-## Como enviar as imagens
+## Próximo passo: demonstração visual
 
-1. Extraia `Site_2026.rar` no computador.
-2. Acesse https://github.com/mateus-mussi/brasil-em-telas.
-3. Selecione **Add file > Upload files**.
-4. Arraste a **pasta `img`** para a página ou envie seus arquivos preservando o caminho `img/...`.
-5. Confirme o commit e confira se `img/logo.webp`, `img/hero.jpg` e `img/1.jpg` até `img/8.jpg` aparecem no repositório.
-6. Teste a página e adicione uma captura real em `docs/inicio.png`; atualize o README para mostrar a imagem.
+1. Faça o upload das capturas de tela `inicio.png` e `galeria.png` para a pasta **`docs/`**.
+2. Verifique os links `docs/inicio.png` e `docs/galeria.png` no GitHub.
+3. Atualize o README para exibir as duas capturas.
+4. Teste a página em computador e celular. As imagens da pasta `img/` já estão presentes.
 
 ## Checklist
 
@@ -26,7 +24,7 @@ O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto
 - [x] Publicar README com contexto, stack e instruções de execução.
 - [x] Publicar HTML e CSS do site.
 - [x] Incluir .gitignore.
-- [ ] Enviar pasta de imagens originais `img/`.
+- [x] Enviar pasta de imagens originais `img/`.
 - [ ] Conferir direitos de uso e créditos das pinturas.
 - [ ] Incluir captura real de tela.
 - [ ] Testar navegação em computador e celular.
