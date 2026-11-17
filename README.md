@@ -79,7 +79,17 @@ As imagens originais do trabalho já estão no repositório:
 
 ![Imagem de capa utilizada no Brasil em Telas](img/hero.jpg)
 
-A captura real da interface (**`docs/inicio.png`**) e a captura da galeria (**`docs/galeria.png`**) ainda precisam ser enviadas à pasta `docs/`. Após o upload, poderão ser exibidas aqui como demonstração da página em funcionamento.
+**Capturas da apresentação do projeto, disponíveis no repositório:**
+
+**Página inicial**
+
+![Página inicial do Brasil em Telas](docs/inicio.png)
+
+**Galeria de pinturas**
+
+![Galeria de pinturas do Brasil em Telas](docs/galeria.png)
+
+> Os arquivos de imagem foram publicados. Para a entrega final, confira se as capturas correspondem à versão que é exibida no navegador.
 
 ## 👥 Autoria e licença
 
@@ -88,6 +98,6 @@ O código original cita **Clarice Gabriela e Mateus Mussi** como responsáveis p
 ## 🔧 Próximas melhorias
 
 - Conferir os créditos e os direitos de uso das imagens publicadas.
-- Adicionar capturas de tela reais da página funcionando.
+- Validar as capturas publicadas em comparação à versão funcionando no navegador.
 - Refinar textos alternativos das imagens com a identificação de cada obra.
 - Realizar testes de acessibilidade e responsividade.
