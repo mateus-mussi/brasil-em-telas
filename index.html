@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brasil em Telas: projeto acadêmico sobre a pintura e a diversidade cultural brasileira.">
+    <title>Brasil em Telas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="#hero" aria-label="Brasil em Telas - início">
+            <span class="logo-wordmark">BRASIL EM TELAS</span>
+        </a>
+        <nav class="navbar" aria-label="Navegação principal">
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#brasil">Brasil</a></li>
+                <li><a href="#map">Mapa</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-message">
+                <span>Arte • Cultura • Brasil</span>
+                <h1>Brasil em Telas</h1>
+                <p>Um olhar sobre a diversidade da pintura brasileira</p>
+            </div>
+        </section>
+        <section id="about">
+            <h1>Sobre a Pintura Brasileira</h1>
+            <p>
+                A pintura brasileira representa a diversidade do Brasil através de suas paisagens, culturas, pessoas e histórias.
+                Ao longo do tempo, diferentes artistas utilizaram a pintura para representar as características do nosso país.
+                As obras brasileiras podem mostrar diferentes regiões e aspectos da vida no Brasil, como as paisagens da Amazônia,
+                o Cerrado, o Pantanal, o litoral, as cidades e as manifestações culturais de diferentes povos.
+                A arte também ajuda a preservar a memória e a identidade brasileira, registrando costumes, lugares e acontecimentos importantes.
+                Dessa forma, a pintura se torna uma maneira de conhecer e valorizar a diversidade cultural do Brasil.
+            </p>
+        </section>
+        <section id="gallery">
+            <h1>Galeria de Pinturas</h1>
+            <div class="gallery-grid">
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 1">Obra 1<small>Imagem original a inserir</small></div>
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 2">Obra 2<small>Imagem original a inserir</small></div>
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 3">Obra 3<small>Imagem original a inserir</small></div>
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 4">Obra 4<small>Imagem original a inserir</small></div>
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 5">Obra 5<small>Imagem original a inserir</small></div>
+                <div class="gallery-placeholder" role="img" aria-label="Espaço reservado à obra 6">Obra 6<small>Imagem original a inserir</small></div>
+            </div>
+        </section>
+        <section id="brasil">
+            <h1>Brasil em Telas</h1>
+            <p>
+                O Brasil possui uma grande diversidade de paisagens, regiões e culturas. As pinturas podem representar a Amazônia,
+                o Nordeste, o Cerrado, o Pantanal, as cidades e muitos outros elementos que fazem parte da identidade brasileira.
+            </p>
+            <p>
+                Cada região possui características próprias, que podem ser representadas através das cores, das paisagens,
+                da arquitetura e das manifestações culturais. As obras também podem retratar diferentes momentos da história
+                e do cotidiano da população brasileira.
+            </p>
+            <p>
+                O projeto Brasil em Telas busca apresentar essa diversidade por meio de imagens e pinturas, mostrando como
+                diferentes lugares e culturas podem fazer parte de uma mesma identidade nacional.
+            </p>
+        </section>
+        <section id="map">
+            <h1>Mapa</h1>
+            <iframe title="Localização da UDF em Brasília" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3789.0980736894007!2d-47.90237878937331!3d-15.799409484778428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b9bf04fbfe1%3A0xd00e14e7079ef36d!2sUDF%20-%20EDIF%C3%8DCIO%204R!5e1!3m2!1spt-BR!2sbr!4v1788177327904!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </section>
+        <section id="contact">
+            <h1>Contatos</h1>
+            <form id="contact-form">
+                <label for="name">Nome</label>
+                <input id="name" type="text" name="name" required>
+                <label for="email">E-mail</label>
+                <input id="email" type="email" name="email" required>
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Enviar (demonstração)</button>
+                <p id="form-notice" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Todos os Direitos Reservados :: Desenvolvido por: Clarice Gabriela &amp; Mateus Mussi</p>
+    </footer>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            document.getElementById('form-notice').textContent =
+                'Formulário demonstrativo: nenhuma mensagem foi enviada.';
+        });
+    </script>
+</body>
+</html>
