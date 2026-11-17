@@ -67,14 +67,6 @@ brasil-em-telas/
 └── README.md
 ```
 
-## 👥 Quem desenvolveu
+## 👥 Desenvolvimento
 
-**Clarice Gabriela e Mateus Mussi.**
-
-Este foi um trabalho que fizemos juntos, por isso mantenho os créditos dos dois. Ainda precisamos conferir a origem e as condições de uso de cada imagem antes de definir uma licença de reutilização para o repositório.
-
-## 🔧 O que quero melhorar
-
-Pretendo revisar os textos alternativos das imagens, conferir os créditos das obras e testar melhor a navegação, a acessibilidade e o comportamento do layout em celulares.
-
-O projeto continua disponível aqui para mostrar o que desenvolvemos e para acompanhar essas melhorias.
+Fiz este projeto em parceria com **Clarice Gabriela**. Aqui estão os arquivos e as imagens que usamos para montar o site.
