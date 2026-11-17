@@ -56,7 +56,7 @@ brasil-em-telas/
 └── README.md
 ```
 
-> O código HTML e o CSS estão publicados. A pasta **img/** com os arquivos binários originais do trabalho precisa ser adicionada ao GitHub para que as imagens apareçam corretamente no site; veja [instruções](docs/LEIA-ANTES-DE-PUBLICAR.md).
+> ✅ **Pasta `img/` publicada e verificada:** `logo.webp`, `hero.jpg` e `1.jpg` até `8.jpg` estão disponíveis com os caminhos usados no HTML e no CSS. A visualização em navegador ainda deve ser testada.
 
 ## ▶️ Como executar localmente
 
@@ -75,11 +75,11 @@ brasil-em-telas/
 
 ## 🖼️ Demonstração visual
 
-O arquivo original do semestre contém a imagem de capa, o logotipo e oito imagens. Para concluir a apresentação visual pública, envie a pasta `img` do arquivo original ao repositório e inclua uma captura real da aplicação em `docs/inicio.png`. Depois, adicione ao README:
+As imagens originais do trabalho já estão no repositório:
 
-```markdown
-![Página inicial — Brasil em Telas](docs/inicio.png)
-```
+![Imagem de capa utilizada no Brasil em Telas](img/hero.jpg)
+
+A captura real da interface (**`docs/inicio.png`**) e a captura da galeria (**`docs/galeria.png`**) ainda precisam ser enviadas à pasta `docs/`. Após o upload, poderão ser exibidas aqui como demonstração da página em funcionamento.
 
 ## 👥 Autoria e licença
 
@@ -87,7 +87,7 @@ O código original cita **Clarice Gabriela e Mateus Mussi** como responsáveis p
 
 ## 🔧 Próximas melhorias
 
-- Enviar as imagens originais ao repositório e verificar seus créditos/direitos de uso.
+- Conferir os créditos e os direitos de uso das imagens publicadas.
 - Adicionar capturas de tela reais da página funcionando.
 - Refinar textos alternativos das imagens com a identificação de cada obra.
 - Realizar testes de acessibilidade e responsividade.
