@@ -1,11 +1,37 @@
-# Checklist de conclusão do projeto Brasil em Telas
+# Conclusão da publicação — Brasil em Telas (2026.2)
 
-- [ ] Confirmar a disciplina em que o projeto foi desenvolvido e se pertence ao semestre 2026.2.
-- [ ] Confirmar autoria completa e autorização dos integrantes do grupo para publicação e licenciamento.
-- [ ] Substituir os seis espaços reservados da galeria por imagens autorizadas, com créditos e descrições.
-- [ ] Adicionar capturas reais em `docs/inicio.png` e `docs/galeria.png` e habilitar sua exibição no README.
-- [ ] Escolher uma licença apropriada e incluir `LICENSE` somente com autorização dos titulares.
-- [ ] Testar `index.html` no navegador em computador e celular.
-- [ ] Adicionar topics do repositório e fixá-lo no perfil, após confirmar o semestre do projeto.
+**Disciplina:** Desenvolvimento Front-End para Web  
+**Curso:** Análise e Desenvolvimento de Sistemas (ADS)  
+**Instituição:** UDF  
+**Semestre:** 2026.2
 
-**Nota:** O formulário de contato é apenas demonstrativo: nenhuma mensagem é enviada.
+## Situação
+
+O projeto foi confirmado pelo estudante como trabalho prático de 2026.2. O arquivo original `Site_2026.rar` contém `index.html`, `css/style.css` e 10 arquivos na pasta `img/`: `logo.webp`, `hero.jpg` e `1.jpg` até `8.jpg`.
+
+O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto. Os **arquivos binários de imagem precisam ser enviados à pasta `img/` no repositório**, preservando os nomes originais.
+
+## Como enviar as imagens
+
+1. Extraia `Site_2026.rar` no computador.
+2. Acesse https://github.com/mateus-mussi/brasil-em-telas.
+3. Selecione **Add file > Upload files**.
+4. Arraste a **pasta `img`** para a página ou envie seus arquivos preservando o caminho `img/...`.
+5. Confirme o commit e confira se `img/logo.webp`, `img/hero.jpg` e `img/1.jpg` até `img/8.jpg` aparecem no repositório.
+6. Teste a página e adicione uma captura real em `docs/inicio.png`; atualize o README para mostrar a imagem.
+
+## Checklist
+
+- [x] Identificar disciplina e semestre 2026.2.
+- [x] Publicar README com contexto, stack e instruções de execução.
+- [x] Publicar HTML e CSS do site.
+- [x] Incluir .gitignore.
+- [ ] Enviar pasta de imagens originais `img/`.
+- [ ] Conferir direitos de uso e créditos das pinturas.
+- [ ] Incluir captura real de tela.
+- [ ] Testar navegação em computador e celular.
+- [ ] Confirmar anuência dos coautores para licenciamento e, se apropriado, adicionar LICENSE.
+- [ ] Adicionar topics do projeto no GitHub.
+- [ ] Fixar o repositório na primeira posição do perfil.
+
+O formulário de contato é demonstrativo e não envia dados para servidor.
