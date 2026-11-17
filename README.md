@@ -1,45 +1,56 @@
 # Brasil em Telas 🎨
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Semestre](https://img.shields.io/badge/UDF-2026.2-blue)
-![Disciplina](https://img.shields.io/badge/Disciplina-Desenvolvimento_Front--End_para_Web-006B3C)
+Um site sobre a pintura brasileira, suas cores, paisagens e a diversidade cultural do nosso país.
 
-## 📚 Projeto acadêmico de 2026.2
+Desenvolvi este projeto com **Clarice Gabriela**, utilizando **HTML, CSS e um pouco de JavaScript**. A ideia foi reunir imagens e informações em uma página simples, agradável de navegar e que também funcionasse em telas menores.
 
-| Informação | Detalhe |
-|---|---|
-| **Projeto** | Brasil em Telas |
-| **Disciplina** | **Desenvolvimento Front-End para Web** |
-| **Semestre** | **2026.2** |
-| **Instituição** | UDF |
-| **Curso** | Análise e Desenvolvimento de Sistemas (ADS) |
-| **Integrantes citados no código** | Clarice Gabriela e Mateus Mussi |
-| **Tecnologias** | HTML5 e CSS3; JavaScript mínimo para o aviso do formulário |
+## 🌎 Sobre o projeto
 
-## 📌 Contexto e objetivo
+Organizamos o site em seções para facilitar a navegação:
 
-O projeto **Brasil em Telas** apresenta a riqueza da pintura brasileira e a diversidade de paisagens, regiões e manifestações culturais do país em um site de página única. Foi desenvolvido como atividade prática da disciplina Desenvolvimento Front-End para Web, no semestre 2026.2, aplicando estruturação semântica, estilização e navegação por âncoras.
+- **Início:** apresentação do tema e imagem de destaque;
+- **Sobre:** uma introdução à pintura brasileira;
+- **Galeria:** seleção de imagens que fazem parte do projeto;
+- **Brasil:** textos sobre a cultura e as paisagens do país;
+- **Mapa:** localização da UDF;
+- **Contato:** um formulário demonstrativo.
 
-A página reúne uma introdução à pintura brasileira, galeria de imagens, textos sobre a cultura nacional, localização da UDF em um mapa incorporado e um formulário visual de contato.
+O formulário é apenas uma demonstração visual: ele exibe um aviso quando é enviado, mas **não encaminha nem armazena mensagens**.
 
-## ✨ Funcionalidades
+## 🛠️ O que utilizei
 
-- Página inicial com imagem de destaque e identidade visual.
-- Barra de navegação entre as seções **Início**, **Sobre**, **Galeria**, **Brasil**, **Mapa** e **Contatos**.
-- Galeria com seis imagens do trabalho original.
-- Layout com adaptação para telas menores.
-- Mapa da UDF incorporado via Google Maps.
-- Formulário ilustrativo, sem backend ou transmissão de mensagens. Ao enviar, é exibido apenas um aviso.
+- **HTML5** para organizar o conteúdo, as seções e os formulários;
+- **CSS3** para trabalhar o visual, a galeria e a adaptação a diferentes telas;
+- **JavaScript** para interações simples;
+- **Google Maps** para incorporar o mapa de localização.
 
-## 🛠️ Tecnologias e organização
+## 💻 Como visualizar
 
-- **HTML5:** estrutura de páginas, seções, navegação, galeria, formulário e iframe.
-- **CSS3:** cores, tipografia, layout flexível, responsividade e efeitos visuais.
-- **JavaScript:** comportamento demonstrativo do formulário e sinalização de imagens ausentes.
-- **Google Maps Embed:** visualização externa do mapa, dependente de conexão com a internet.
+Não é preciso instalar bibliotecas ou iniciar um servidor.
 
-Estrutura esperada do projeto:
+1. Baixe os arquivos ou clone o repositório:
+
+   ```bash
+   git clone https://github.com/mateus-mussi/brasil-em-telas.git
+   ```
+
+2. Abra o arquivo `index.html` no navegador.
+
+Também é possível abrir a pasta no VS Code e usar a extensão **Live Server**. O mapa precisa de conexão com a internet.
+
+## 📸 Imagens do site
+
+### Página inicial
+
+![Página inicial do Brasil em Telas](docs/inicio.png)
+
+### Galeria
+
+![Galeria do Brasil em Telas](docs/galeria.png)
+
+As imagens utilizadas na página estão organizadas na pasta `img/`.
+
+## 📁 Organização dos arquivos
 
 ```text
 brasil-em-telas/
@@ -51,53 +62,19 @@ brasil-em-telas/
 │   ├── hero.jpg
 │   └── 1.jpg ... 8.jpg
 ├── docs/
-│   └── LEIA-ANTES-DE-PUBLICAR.md
-├── .gitignore
+│   ├── inicio.png
+│   └── galeria.png
 └── README.md
 ```
 
-> ✅ **Pasta `img/` publicada e verificada:** `logo.webp`, `hero.jpg` e `1.jpg` até `8.jpg` estão disponíveis com os caminhos usados no HTML e no CSS. A visualização em navegador ainda deve ser testada.
+## 👥 Quem desenvolveu
 
-## ▶️ Como executar localmente
+**Clarice Gabriela e Mateus Mussi.**
 
-**Pré-requisito:** navegador atualizado (Chrome, Firefox ou Edge). Não há dependências a instalar.
+Este foi um trabalho que fizemos juntos, por isso mantenho os créditos dos dois. Ainda precisamos conferir a origem e as condições de uso de cada imagem antes de definir uma licença de reutilização para o repositório.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/mateus-mussi/brasil-em-telas.git
-   cd brasil-em-telas
-   ```
-2. Abra o arquivo `index.html` no navegador.
-3. Alternativamente, abra a pasta no VS Code e inicie a extensão *Live Server*.
-4. Navegue pelas seções usando o menu superior.
+## 🔧 O que quero melhorar
 
-**Observações:** O mapa necessita de internet. O formulário é demonstrativo; não existe servidor para receber ou salvar os dados.
+Pretendo revisar os textos alternativos das imagens, conferir os créditos das obras e testar melhor a navegação, a acessibilidade e o comportamento do layout em celulares.
 
-## 🖼️ Demonstração visual
-
-As imagens originais do trabalho já estão no repositório:
-
-![Imagem de capa utilizada no Brasil em Telas](img/hero.jpg)
-
-**Capturas da apresentação do projeto, disponíveis no repositório:**
-
-**Página inicial**
-
-![Página inicial do Brasil em Telas](docs/inicio.png)
-
-**Galeria de pinturas**
-
-![Galeria de pinturas do Brasil em Telas](docs/galeria.png)
-
-> Os arquivos de imagem foram publicados. Para a entrega final, confira se as capturas correspondem à versão que é exibida no navegador.
-
-## 👥 Autoria e licença
-
-O código original cita **Clarice Gabriela e Mateus Mussi** como responsáveis pelo desenvolvimento. A licença não foi definida: é necessário confirmar a concordância dos autores e os direitos de uso das imagens antes de adicionar um arquivo `LICENSE`. Sem licença, a publicação no GitHub não equivale à autorização para reutilização por terceiros.
-
-## 🔧 Próximas melhorias
-
-- Conferir os créditos e os direitos de uso das imagens publicadas.
-- Validar as capturas publicadas em comparação à versão funcionando no navegador.
-- Refinar textos alternativos das imagens com a identificação de cada obra.
-- Realizar testes de acessibilidade e responsividade.
+O projeto continua disponível aqui para mostrar o que desenvolvemos e para acompanhar essas melhorias.
