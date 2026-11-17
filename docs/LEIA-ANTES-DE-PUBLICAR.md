@@ -11,12 +11,11 @@ O projeto foi confirmado pelo estudante como trabalho prático de 2026.2. O arqu
 
 O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto. A **pasta `img/` foi enviada e verificada no GitHub**, com os 10 arquivos originais preservados.
 
-## Próximo passo: demonstração visual
+## Demonstração visual
 
-1. Faça o upload das capturas de tela `inicio.png` e `galeria.png` para a pasta **`docs/`**.
-2. Verifique os links `docs/inicio.png` e `docs/galeria.png` no GitHub.
-3. Atualize o README para exibir as duas capturas.
-4. Teste a página em computador e celular. As imagens da pasta `img/` já estão presentes.
+As capturas `docs/inicio.png` e `docs/galeria.png` foram enviadas e verificadas no GitHub. Ambas estão incorporadas no README do projeto.
+
+**Próximo passo:** confirmar que as capturas correspondem à versão final do site e testar sua navegação em computador e celular.
 
 ## Checklist
 
@@ -26,7 +25,8 @@ O HTML e o CSS foram publicados e atualizados para manter a estrutura do projeto
 - [x] Incluir .gitignore.
 - [x] Enviar pasta de imagens originais `img/`.
 - [ ] Conferir direitos de uso e créditos das pinturas.
-- [ ] Incluir captura real de tela.
+- [x] Publicar capturas em `docs/inicio.png` e `docs/galeria.png` e incorporá-las ao README.
+- [ ] Confirmar que as capturas representam a interface real e atual.
 - [ ] Testar navegação em computador e celular.
 - [ ] Confirmar anuência dos coautores para licenciamento e, se apropriado, adicionar LICENSE.
 - [ ] Adicionar topics do projeto no GitHub.
